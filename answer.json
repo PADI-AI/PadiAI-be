@@ -1,17 +1,1 @@
-[
-    {
-        "question": "What is the difference between a list and a tuple in Python?",
-        "difficulty": "Basic",
-        "answer": "Lists are mutable, meaning their elements can be changed after creation, while tuples are immutable, meaning their elements cannot be changed after creation."
-    },
-    {
-        "question": "Explain the use of 'self' in Python classes.",
-        "difficulty": "Intermediate",
-        "answer": "'self' is a reference to the instance of the class and is used to access variables and methods defined within the class. It must be the first parameter in any method defined in the class."
-    },
-    {
-        "question": "Explain the use of 'yield' in Python.",
-        "difficulty": "Advanced",
-        "answer": "puta"
-    }
-]
+[{"topic":"Variables and Data Types","question":"What are the different data types available in Python?","answer":"too many"},{"topic":"Working with String, Numbers and Input","question":"How can you convert a string to an integer in Python?","answer":"forgot"},{"topic":"Conditional Statements (If/Elif/Else)","question":"Explain the difference between '==' and '!=' in Python.","answer":"== means \"is equal to\", != means \"is not equal to\" "},{"topic":"Loops, Lists and Tuples","question":"How can you iterate over a list in Python?","answer":"for loop or while loop"},{"topic":"Functions","question":"What is the difference between 'return' and 'print' in Python functions?","answer":"many"},{"topic":"Classes and Objects","question":"How do you create an object of a class in Python?","answer":"idk"},{"topic":"Magic Methods in Python","question":"Explain the purpose of '__init__' method in Python classes.","answer":"diy"},{"topic":"Inheritance and Polymorphism in Python","question":"Provide an example of inheritance in Python.","answer":"you better diy it"}]
