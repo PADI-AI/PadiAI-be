@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What is the difference between a list and a tuple in Python?",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Explain the concept of list comprehension with an example.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the difference between '==' and 'is' in Python?",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Explain the use of 'self' in Python classes.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of __init__ method in Python classes?",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How can you handle exceptions in Python?",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the difference between 'append' and 'extend' methods in Python lists?",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Explain the difference between a shallow copy and a deep copy.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How can you open and read a file in Python?",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Explain the use of 'lambda' functions in Python.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the difference between 'map' and 'filter' functions?",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How can you connect to a database in Python?",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Explain the concept of inheritance in Python with an example.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What are decorators in Python?",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Explain the difference between 'mutable' and 'immutable' objects in Python.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How can you perform unit testing in Python?",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of 'if __name__ == '__main__':' in Python?",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Explain the use of 'yield' in Python.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the GIL (Global Interpreter Lock) in Python?",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "How can you implement multithreading in Python?",
+        "difficulty": "Advanced"
+    }
+]

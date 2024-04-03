@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_new_hire_new_hires",
+  "info": {
+    "displayName": "newHire"
+  },
+  "options": {},
+  "attributes": {
+    "memberName": {
+      "type": "string"
+    },
+    "quizStatus": {
+      "type": "boolean",
+      "default": false
+    },
+    "submissionDocs": {
+      "displayName": "submissionDocument ",
+      "type": "component",
+      "repeatable": true,
+      "component": "submission-docs.submission-document"
+    },
+    "quizResult": {
+      "type": "json"
+    }
+  }
+}
