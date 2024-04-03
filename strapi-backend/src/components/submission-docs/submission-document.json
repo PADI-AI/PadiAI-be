@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_submission_docs_submission_document_s",
+  "info": {
+    "displayName": "submissionDocument "
+  },
+  "options": {},
+  "attributes": {
+    "submissionName": {
+      "type": "string"
+    },
+    "linktoFile": {
+      "type": "string"
+    }
+  }
+}

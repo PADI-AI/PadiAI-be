@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "managers",
+  "info": {
+    "singularName": "manager",
+    "pluralName": "managers",
+    "displayName": "Manager"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "managerName": {
+      "type": "string"
+    },
+    "newHire": {
+      "displayName": "newHire",
+      "type": "component",
+      "repeatable": true,
+      "component": "new-hire.new-hire"
+    },
+    "teamLearning": {
+      "displayName": "teamLearning",
+      "type": "component",
+      "repeatable": true,
+      "component": "team-learning.team-learning"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_team_learning_team_learnings",
+  "info": {
+    "displayName": "teamLearning"
+  },
+  "options": {},
+  "attributes": {
+    "materialName": {
+      "type": "string"
+    },
+    "materialLink": {
+      "type": "string"
+    }
+  }
+}
