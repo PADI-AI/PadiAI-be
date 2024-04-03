@@ -1,0 +1,17 @@
+[
+    {
+        "question": "What is the difference between a list and a tuple in Python?",
+        "difficulty": "Basic",
+        "answer": "Lists are mutable, meaning their elements can be changed after creation, while tuples are immutable, meaning their elements cannot be changed after creation."
+    },
+    {
+        "question": "Explain the use of 'self' in Python classes.",
+        "difficulty": "Intermediate",
+        "answer": "'self' is a reference to the instance of the class and is used to access variables and methods defined within the class. It must be the first parameter in any method defined in the class."
+    },
+    {
+        "question": "Explain the use of 'yield' in Python.",
+        "difficulty": "Advanced",
+        "answer": "puta"
+    }
+]
