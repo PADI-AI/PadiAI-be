@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import fetch from 'node-fetch';
+import fs from 'fs';
 
 const port = 1234;
 const app = express();
@@ -15,6 +16,7 @@ const API_KEY = process.env.API_KEY;
 app.post('/test', (req, res) => {
   res.json(req.body);
   console.log(req.body);
+  fs.writeFileSync("./userAnswers.json", JSON.stringify(req.body));
 });
 
 app.post('/completions', async (req, res) => {
