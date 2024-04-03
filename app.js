@@ -29,8 +29,9 @@ app.get('/completions', async(req, res) => {
   body: JSON.stringify({
     model: "gpt-3.5-turbo",
     messages: [
-      { role: "user", content: "Check if the answer matches the question, if not put a false in the boolean. Return only in JSON" },
-      { role: "user", content: JSON.stringify(answerContent) } // Include the content of answer.json here
+      { role: "user", content: "Check if the answer matches the question, if doesn't match put a false in the boolean. Return only in JSON" },
+      { role: "user", content: JSON.stringify(answerContent) },
+      { role: "user", content: "" }
     ],
     max_tokens: 200,
   })
