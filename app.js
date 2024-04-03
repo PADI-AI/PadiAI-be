@@ -1,27 +1,25 @@
-import express from 'express'
-const port = 1234
-const app = express()
+import express from 'express';
+import cors from 'cors';
+import fetch from 'node-fetch';
+
+const port = 1234;
+const app = express();
+
 app.use(express.json());
 
-const API_KEY = "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"
+// Enable CORS
+app.use(cors());
 
-import fs from 'fs'
+const API_KEY = process.env.API_KEY;
 
-// Read the content of answer.json
-const answerContent = JSON.parse(fs.readFileSync('answer.json', 'utf-8'));
+app.post('/test', (req, res) => {
+  res.json(req.body);
+  console.log(req.body);
+});
 
-// app.get("/", (req, res) => {
-//     res.send("hello");
-// })
-
-app.get('/', (req, res) => {
-
-})
-
-app.get('/completions', async(req, res) => {
-
+app.post('/completions', async (req, res) => {
   const options = {
-    method:"POST",
+    method: "POST",
     headers: {
       "Authorization": `Bearer ${API_KEY}`,
       "Content-Type": "application/json"
@@ -38,19 +36,19 @@ app.get('/completions', async(req, res) => {
   }
 
   try {
-    const response = await fetch('https://api.openai.com/v1/chat/completions', options)
-    const data = await response.json()
-    res.send(data)
+    const response = await fetch('https://api.openai.com/v1/chat/completions', options);
+    const data = await response.json();
+    res.send(data);
   } catch (error) {
-    console.error(error)
+    console.error(error);
+    res.status(500).send({ error: 'Internal Server Error' });
   }
-})
+});
 
 app.get('/quiz', (req, res) => {
-    res.send('hello')
-})
+  res.send('hello');
+});
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-})
-
+  console.log(`Example app listening on port ${port}`);
+});
