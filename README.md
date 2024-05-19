@@ -1,5 +1,3 @@
 # h2h-be
 
-me
-
-hello i'm leo
+This repository is serves as a backend service to support integration with OpenAI API
